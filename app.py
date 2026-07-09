@@ -94,7 +94,8 @@ def scholarships():
             "amount": s.amount,
             "min_cgpa": s.min_cgpa
         })
-
+        
+    print(result)
     return jsonify(result)
 
 
